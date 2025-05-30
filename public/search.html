@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск на LastFM Clone</title>
+    <link rel="stylesheet" href="styles-search.css">
+</head>
+<body>
+<header class="site-header">
+    <nav class="navigation">
+        <div class="logo-container">
+            <a href="/music" class="logo-link"><strong>LastFM Clone</strong></a>
+        </div>
+        <ul class="menu-items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Live</a></li>
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Features</a></li>
+        </ul>
+    </nav>
+</header>
+<main role="main">
+    <section class="search-section">
+        <div class="search-header">
+            <h2 class="section-title">Search results for</h2>
+            <ul class="search-tabs">
+                <li class="active"><a href="#"><strong>Top Results</strong></a></li>
+                <li><a href="#">Artists</a></li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="#">Tracks</a></li>
+            </ul>
+        </div>
+        <form action="#" method="get" class="search-form">
+            <input type="text" name="query" placeholder="Введите запрос для поиска">
+            <button type="submit"><img src="поиск.png" alt="Search"></button>
+        </form>
+        <div class="search-results">
+            <h3 class="section-subtitle">Artists</h3>
+            <div class="artist-grid">
+                <div class="artist-card">
+                    <img src="artist1.jpg" alt="Artist 1">
+                    <h4>Исполнитель 1</h4>
+                    <p>4,031,656 слушателей</p>
+                </div>
+                <div class="artist-card">
+                    <img src="artist2.jpg" alt="Artist 2">
+                    <h4>Исполнитель 2</h4>
+                    <p>32,215 слушателей</p>
+                </div>
+            </div>
+            <a href="#" class="more-link">More artists</a>
+            <h3 class="section-subtitle">Albums</h3>
+            <div class="album-grid">
+                <div class="album-card">
+                    <img src="album1.jpg" alt="Album 1">
+                    <h4>Альбом 1</h4>
+                    <p>Исполнитель 1</p>
+                </div>
+                <div class="album-card">
+                    <img src="album2.jpg" alt="Album 2">
+                    <h4>Альбом 2</h4>
+                    <p>Исполнитель 2</p>
+                </div>
+            </div>
+            <a href="#" class="more-link">More albums</a>
+            <h3 class="section-subtitle">Tracks</h3>
+            <ul class="track-list">
+                <li>
+                    <img src="play.png" alt="Play">
+                    <img src="album1.jpg" alt="Album 1">
+                    <img src="like.png" alt="Like">
+                    <a href="#">Трек 1</a>
+                    <span>Исполнитель 1</span>
+                    <span class="track-duration">3:35</span>
+                </li>
+            </ul>
+            <a href="#" class="more-link">More tracks</a>
+        </div>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="footer-column">
+            <h5>COMPANY</h5>
+            <ul>
+                <li><a href="#">About Last.fm</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Jobs</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>HELP</h5>
+            <ul>
+                <li><a href="#">Track My Music</a></li>
+                <li><a href="#">Community Support</a></li>
+                <li><a href="#">Community Guidelines</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>GOODIES</h5>
+            <ul>
+                <li><a href="#">Download Scrobbler</a></li>
+                <li><a href="#">Developer API</a></li>
+                <li><a href="#">Free Music Downloads</a></li>
+                <li><a href="#">Merchandies</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>ACCOUNT</h5>
+            <ul>
+                <li><a href="#">Inbox</a></li>
+                <li><a href="#">Settings</a></li>
+                <li><a href="#">Last.fm Pro</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <h5>FOLLOW US</h5>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Youtube</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="language-selector">
+            <span>English</span>
+            <span>Deutsch</span>
+            <span>Español</span>
+            <span>Italiano</span>
+            <span>Polski</span>
+            <span>Svenska</span>
+            <span>Русский</span>
+        </div>
+        <div class="timezone-info">
+            <span>Time zone:</span>
+            <span>Europe/Moscow</span>
+        </div>
+        <div class="some-info">
+            <span>CBS Interactive © 2025 Last.fm Ltd. All rights reserved Terms of Use Privacy Policy Legal Policies Cookie Details Jobs at Paramount Last.fm Music</span>
+        </div>
+        <img src="logo_red.png" alt="Logo" class="footer-logo">
+    </div>
+</footer>
+<script src="script-search.js"></script>
+</body>
+</html>
